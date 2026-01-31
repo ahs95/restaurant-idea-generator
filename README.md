@@ -35,9 +35,8 @@ cd restaurant-idea-generator
 Ensure you have Python installed. Then, install the required libraries:
 
 ```bash
-pip install -r requirements.txt
+pip install torch transformers gradio requests pillow
 ```
-*(Or manually install: `pip install torch transformers gradio requests pillow`)*
 
 ### 3. Download the Model
 The application is configured to use the **LFM2.5-1.2B-Instruct** model.
@@ -101,15 +100,3 @@ restaurant-idea-generator/
 - **UI:** [Gradio](https://www.gradio.app/)
 
 ***
-
-### Suggestion
-You might want to create a `requirements.txt` file to match your README so users can install dependencies easily. Here is the content for that file:
-
-```text
-torch
-transformers
-gradio
-requests
-Pillow
-huggingface_hub
-```
