@@ -39,12 +39,12 @@ pip install torch transformers gradio requests pillow
 ```
 
 ### 3. Download the Model
-The application is configured to use the **LFM2.5-1.2B-Instruct** model.
+The application is configured to load models from **`C:\LFM2.5-1.2B-Instruct`** for optimal SSD performance.
 
 1.  Visit the [Model Page](https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct).
 2.  Download the model weights using `git lfs` or the "Download" button.
-3.  **Important:** Place the downloaded model files into a folder named `LFM2.5-1.2B-Instruct` inside your project directory.
-    *   *Alternatively, update the `model_dir` path in `main.py` to point to where you saved the model on your machine.*
+3.  **Crucial:** Create a folder named `LFM2.5-1.2B-Instruct` on your **C: drive** and place the model files inside it.
+    *   *Note:* If you prefer to store the model inside the project directory (or elsewhere), please update the `model_dir` path in `main.py` (Line 7).
 
 ## 💻 Usage
 
@@ -82,10 +82,9 @@ Check out this short video demonstrating the Gradio UI in action:
 restaurant-idea-generator/
 ├── main.py               # Model logic, text generation, and image processing
 ├── app.py                # Gradio interface setup
-├── LFM2.5-1.2B-Instruct/ # Folder containing the local LLM weights
-├── requirements.txt       # Python dependencies
 └── README.md             # This file
 ```
+*(By default, the app loads the LLM from **`C:\LFM2.5-1.2B-Instruct`** to ensure fast startup, since the C: drive is an SSD and offers lower load times.)*
 
 ## 📝 Future Improvements
 
