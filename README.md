@@ -4,7 +4,7 @@ An intelligent, dual-powered AI application that generates creative restaurant c
 
 Built by combining the privacy and speed of **Local LLMs** with the visual creativity of **Cloud-based Image Generation**.
 
-![Demo](https://img.shields.io/badge/Status-Stable-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Demo](https://img.shields.io/badge/Status-Stable-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg) ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 ## ✨ Features
 
