@@ -63,6 +63,12 @@ The interface will launch locally (usually at `http://127.0.0.1:7860`).
 3.  **Generate:** Click the button to see your concept.
 4.  **Save:** Click the download icon on the logo image to save the high-res file.
 
+## 📹 Demo Video
+
+Check out this short video demonstrating the Gradio UI in action:
+
+[Watch the demo](https://cap.so/s/6ab6ezcz9k12j39)
+
 ## 🧠 How It Works
 
 1.  **Text Engine:** The app runs `LFM2.5-1.2B-Instruct` locally on your CPU. It creates a structured response containing a Name and a Menu.
